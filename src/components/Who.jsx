@@ -23,18 +23,19 @@ const Who = () => {
                 </button>
             </div>
 
-        <div className='relative'>
-            <div className='flex items-center justify-end h-full w-full'>
+        <div className='relative grid grid-cols-1 gap-16'>
+            <div className='flex items-center lg:justify-end justify-center h-full w-full'>
             <img src={who} alt="" />
             </div>
 
-            <div className='w-[60%] bg-[#343268] p-5 absolute top-72 rounded-3xl flex items-center justify-center'>
+            <div className='lg:w-[70%] bg-[#343268] p-5 lg:absolute lg:right-48 lg:top-72 rounded-3xl flex items-center justify-center'>
                 <div>
-                <h1 className='text-[26px] text-white font-semibold mb-3'>Our mission is simple</h1>
+                <h1 className='text-[20px] text-white font-semibold mb-3'>Our mission is simple</h1>
                 <p className='text-white'>To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
                 </div>
             </div>
         </div>
+
 
     </div>
   )

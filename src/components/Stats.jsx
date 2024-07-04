@@ -11,10 +11,10 @@ const Stats = () => {
 
     <>
     <div className='relative font-bold w-10/12 mx-auto mt-[50px]'>
-            <h1 className='text-left lg:text-center md:text-center lg:text-[45px] md:text-[30px] text-[22px]'>Comprehensive Care <br /> for Every Patient</h1>
+            <h1 className='text-center lg:text-[45px] md:text-[30px] text-[25px]'>Comprehensive Care <br /> for Every Patient</h1>
         </div>
     
-    <div className='w-10/12 mx-auto my-[50px] grid grid-cols-1 lg:grid-cols-5 gap-10 relative'>
+    <div className='w-10/12 mx-auto my-[50px] lg:mt-[-100px] grid grid-cols-1 lg:grid-cols-5 gap-10 relative'>
 
         <div className='h-[312px] bg-gray-100 rounded-2xl p-6'>
             <h1 className='text-[40px] font-bold'>90%</h1>
@@ -27,17 +27,17 @@ const Stats = () => {
             <h1 className='text-[40px] font-bold'>500+</h1>
             <p className='mb-3'>Board-certified doctors</p>
             <div className='flex items-center justify-end'>
-            <img className='h-[65px]' src={stats2} alt="" />
+            <img className='h-[65px] pb-3' src={stats2} alt="" />
             </div>
             </div>
         </div>
 
         <div className='flex items-end'>
-            <div className='w-full h-[162px] bg-[#fff0f0] rounded-2xl p-6'>
+            <div className='w-full h-[170px] bg-[#fff0f0] rounded-2xl p-6'>
             <h1 className='text-[40px] font-bold flex items-center justify-start gap-2'>4.8 <FaStar className='text-yellow-400' /> </h1>
             <p className='mb-3'>Over 20,000 Patient</p>
             <div className='flex items-center justify-start'>
-            <img src={stats3} alt="" />
+            <img className='' src={stats3} alt="" />
             </div>
             </div>
         </div>
@@ -47,7 +47,7 @@ const Stats = () => {
             <h1 className='text-[40px] font-bold'>$5000</h1>
             <p className='mb-3'>Money spend for poor patient</p>
             <div className='flex items-center justify-end'>
-            <img className='h-[40px]' src={stats4} alt="" />
+            <img className='h-[50px] pb-3' src={stats4} alt="" />
             </div>
             </div>
         </div>

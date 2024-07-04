@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { MdArrowOutward } from "react-icons/md";
 import logo from "../assets/images/logo.png"
 
@@ -50,6 +50,13 @@ const Navbar = () => {
             </li>
           </NavLink>
 
+            <Link to="/">
+          <button className='flex items-center justify-center gap-2 border-2 border-[#343268] bg-transparent font-bold p-2 rounded-xl text-[#343268]'>
+                    Appointment 
+                    <MdArrowOutward />
+                </button>
+                </Link>
+
                     </ul>
                 </div>
                 
@@ -84,7 +91,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className='flex items-center justify-center gap-2 border-2 border-[#343268] bg-transparent font-bold p-2 rounded-xl text-[#343268]'>
+                <button className='items-center justify-center gap-2 border-2 border-[#343268] bg-transparent font-bold p-2 rounded-xl text-[#343268] hidden md:flex lg:flex'>
                     Appointment 
                     <MdArrowOutward />
                 </button>

@@ -7,7 +7,7 @@ const ServiceSection = () => {
     <div className='w-10/12 mx-auto mt-[150px] mb-[100px] bg-[#FFFFF5] p-10'>
 
         {/* div 1 */}
-      <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-16 mb-16'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16'>
 
         <div className='flex items-center justify-center'>
             <div>
@@ -47,7 +47,7 @@ const ServiceSection = () => {
       </div>
 
       {/* div 2 */}
-      <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-16'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
 
       <div className="relative w-full flex items-end service2-bg h-[400px] rounded-xl">
       <div className="absolute inset-0 bg-opacity-50"></div>
