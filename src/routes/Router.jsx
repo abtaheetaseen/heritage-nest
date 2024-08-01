@@ -3,6 +3,7 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import AboutUs from "../pages/AboutUs";
 import BuyerScreen from "../pages/BuyerScreen";
+import PropertyDetails from "../pages/PropertyDetails";
 
 export const Router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ export const Router = createBrowserRouter([
             {
                 path: "/buyerScreen",
                 element: <BuyerScreen />
+            },
+            {
+                path: "/propertyDetails",
+                element: <PropertyDetails />
             },
         ]
     }

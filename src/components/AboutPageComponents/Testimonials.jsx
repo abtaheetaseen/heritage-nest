@@ -1,4 +1,6 @@
 import React from 'react'
+import person1 from "../../assets/images/Rectangle 29.png"
+import person2 from "../../assets/images/Rectangle 30.png"
 
 const Testimonials = () => {
     return (
@@ -27,7 +29,7 @@ const Testimonials = () => {
 
                     <div className='text-center'>
                         <div className='flex items-center justify-center mb-2'>
-                            <img className='w-12 h-12 rounded-full' src="" alt="" />
+                            <img className='w-12 h-12 rounded-full' src={person1} alt="" />
                         </div>
                         <h5 className='font-montserrat font-semibold text-[20px] text-[#111827]'>Tony Stark</h5>
                         <p className='font-montserrat font-normal text-[16px] text-[#6B7280]'>Marketing manager, XYZ</p>
@@ -50,7 +52,7 @@ const Testimonials = () => {
 
                     <div className='text-center'>
                         <div className='flex items-center justify-center mb-2'>
-                            <img className='w-12 h-12 rounded-full' src="" alt="" />
+                            <img className='w-12 h-12 rounded-full' src={person2} alt="" />
                         </div>
                         <h5 className='font-montserrat font-semibold text-[20px] text-[#111827]'>Tony Stark</h5>
                         <p className='font-montserrat font-normal text-[16px] text-[#6B7280]'>Marketing manager, XYZ</p>

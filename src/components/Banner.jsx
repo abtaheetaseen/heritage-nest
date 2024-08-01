@@ -7,8 +7,8 @@ const Banner = () => {
     <div className='banner-bg flex items-center justify-center'>
         <div>
             <div className='mx-auto'>
-              <h1 className='text-[64px] leading-[96px] font-bold text-[#FFFFFF] font-body'>Your Portal to India's <br /> Exquisite Real Estate</h1>
-              <p className='font-body font-normal text-[18px] leading-[21.78px] text-[#F9FAFB] my-10'>Seamlessly connecting you to the heartbeat of India's prime properties.</p>
+              <h1 className='lg:text-[64px] md:text-[50px] text-[30px] sm:text-[40px] lg:leading-[96px] md:leading-[50px] text-center font-bold text-[#FFFFFF] font-body'>Your Portal to India's <br /> Exquisite Real Estate</h1>
+              <p className='font-body font-normal sm:text-[18px] text-[14px] leading-[21.78px] text-[#F9FAFB] my-10 text-center'>Seamlessly connecting you to the heartbeat of India's prime properties.</p>
 
             <div className='flex items-center justify-center'>
               <button className='font-body px-[28px] py-[16px] flex items-center justify-center gap-3 bg-[#005EAE] text-[#FFFFFF] rounded-[8px]'>

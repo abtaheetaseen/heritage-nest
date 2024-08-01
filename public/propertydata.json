@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505658/Banner_Image-2_rsbxly.png",
+        "category": "popularProperties"
+    },
+    {
+        "id": 2,
+        "name": "SunnySlope Suites",
+        "location":"Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505725/Banner_Image_dspo1h.png",
+        "category": "popularProperties"
+    },
+    {
+        "id": 3,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505783/Banner_Image-1_ibiksx.png",
+        "category": "popularProperties"
+    },
+    {
+        "id": 4,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722509051/luxury-bedroom-grey-gold_nt5ahx.webp",
+        "category": "popularProperties"
+    },
+    {
+        "id": 5,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505658/Banner_Image-2_rsbxly.png",
+        "category": "newListedProperties"
+    },
+    {
+        "id": 6,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505725/Banner_Image_dspo1h.png",
+        "category": "newListedProperties"
+    },
+    {
+        "id": 7,
+        "name":"SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505783/Banner_Image-1_ibiksx.png",
+        "category": "newListedProperties"
+    },
+    {
+        "id": 8,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722509051/luxury-bedroom-grey-gold_nt5ahx.webp",
+        "category": "newListedProperties"
+    },
+    {
+        "id": 9,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505658/Banner_Image-2_rsbxly.png",
+        "category": "othersNearbyProperties"
+    },
+    {
+        "id": 10,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505725/Banner_Image_dspo1h.png",
+        "category": "othersNearbyProperties"
+    },
+    {
+        "id": 11,
+        "name":"SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505783/Banner_Image-1_ibiksx.png",
+        "category": "othersNearbyProperties"
+    },
+    {
+        "id": 12,
+        "name": "SunnySlope Suites",
+        "location": "Meadowshire Park, Greenfield, USA",
+        "price": "$250000",
+        "image": "https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722509051/luxury-bedroom-grey-gold_nt5ahx.webp",
+        "category": "othersNearbyProperties"
+    }
+
+]

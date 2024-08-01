@@ -20,7 +20,7 @@ const PropertyBuying = () => {
                         <img className='w-[80%] rounded-[8px]' src={pb1} alt="" />
                     </div>
 
-                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full flex items-center justify-center absolute top-[145px] left-[440px]'>
+                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute top-[145px] left-[440px] hidden'>
                         <VscTriangleRight className='text-[#FFFFFF] text-[50px]' />
                     </div>
 
@@ -88,7 +88,7 @@ const PropertyBuying = () => {
                         <img className='w-[60%] flex items-end rounded-[8px] shadow-custom-shadow-1 z-10' src={banner} alt="" />
                     </div>
 
-                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full flex items-center justify-center absolute top-[145px] left-[440px] z-20'>
+                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute top-[145px] left-[440px] z-20 hidden'>
                         <VscTriangleRight className='text-[#FFFFFF] text-[50px]' />
                     </div>
 
@@ -108,7 +108,7 @@ const PropertyBuying = () => {
                         <img className='w-[80%] rounded-[8px]' src={pb2} alt="" />
                     </div>
 
-                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full flex items-center justify-center absolute top-[145px] left-[440px]'>
+                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute top-[145px] left-[440px] hidden'>
                         <VscTriangleRight className='text-[#FFFFFF] text-[50px]' />
                     </div>
 

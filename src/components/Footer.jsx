@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookSquare, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import logo from "../assets/images/logo.png"
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
     <div className="grid grid-cols-2 lg:grid-cols-7 gap-8 w-10/12 mx-auto py-10">
 
     <div className="col-span-2">
-        <img src="" alt="Logo" className="h-12 w-12" />
+        <img src={logo} alt="Logo" className="h-28 w-28" />
         <p className="text-gray-600 font-body mt-5">Design amazing digital experiences that create more happy in the world.</p>
       </div>
 

@@ -3,7 +3,7 @@ import { MdFoundation } from 'react-icons/md'
 
 const ServicesDesc = ({heading, subHeading}) => {
   return (
-    <div className='h-[200px] flex items-start justify-center gap-5 rounded-[4px] bg-[#ECF5FF] p-6'>
+    <div className='flex items-start justify-center gap-5 rounded-[4px] bg-[#ECF5FF] p-6'>
       <div className='w-12 h-12 rounded-[4px] bg-[#EE6611] flex items-center justify-center'>
       <MdFoundation className='text-3xl text-white' />
       </div>

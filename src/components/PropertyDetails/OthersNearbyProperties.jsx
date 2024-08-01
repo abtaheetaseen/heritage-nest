@@ -9,7 +9,7 @@ import { MdSquare } from 'react-icons/md';
 import { IoLocationOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
-const NewListedProperty = () => {
+const OthersNearbyProperties = () => {
 
     const [properties, setProperties] = useState([]);
 
@@ -21,10 +21,11 @@ const NewListedProperty = () => {
         })
     }, [])
 
+
   return (
     <div className="w-10/12 mx-auto my-[50px]">
             <div className='flex items-center justify-between'>
-            <h2 className="text-[32px] text-[#101010] font-montserrat font-semibold">New Listed Properties</h2>
+            <h2 className="text-[32px] text-[#101010] font-montserrat font-semibold">Others Nearby Properties</h2>
 
             <p className='text-[18px] text-[#0059B1] font-poppins font-semibold underline'>See all property</p>
             </div>
@@ -36,7 +37,7 @@ const NewListedProperty = () => {
                 navigation
                 onSlideChange={() => console.log('slide change')}
             >
-                {properties?.filter(item => item.category === "newListedProperties").map((property) => (
+                {properties?.filter(item => item.category === "othersNearbyProperties").map((property) => (
                     <SwiperSlide key={property.id}>
 
                     <Link to="/propertyDetails">
@@ -79,4 +80,4 @@ const NewListedProperty = () => {
   )
 }
 
-export default NewListedProperty
+export default OthersNearbyProperties

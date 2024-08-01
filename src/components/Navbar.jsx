@@ -1,9 +1,10 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import logo from "../assets/images/logo.png"
 
 const Navbar = () => {
     return (
-      <div className="navbar flex items-center justify-between h-[96px] bg-[#ECF5FF] lg:px-[112px]">
+      <div className="navbar flex items-center justify-between h-[96px] bg-[#ECF5FF] lg:px-[112px] shadow-custom-shadow-2">
 
 <div className="hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-body">
@@ -53,10 +54,13 @@ const Navbar = () => {
       </NavLink>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Heritage Nest</a>
+    <Link to="/">
+      <img className='h-20 w-20' src={logo} alt="" />
+    </Link>
   </div>
 
-  <div className="">
+  <div className="flex items-center justify-end gap-5">
+    <p className='font-body'>Manage Rentals</p>
     <button className="w-[96px] h-[40px] rounded-[8px] bg-[#C5E2FF] text-[#0059B1]">Sign In</button>
   </div>
 </div>

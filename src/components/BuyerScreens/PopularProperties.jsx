@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,35 +7,19 @@ import "../../App.css"
 import { FaRegImage } from 'react-icons/fa';
 import { MdSquare } from 'react-icons/md';
 import { IoLocationOutline } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 
 const PopularProperties = () => {
 
-    const properties = [
-        {
-            name: 'SunnySlope Suites',
-            location: 'Meadowshire Park, Greenfield, USA',
-            price: '$250000',
-            image: 'https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722509051/luxury-bedroom-grey-gold_nt5ahx.webp',
-        },
-        {
-            name: 'SunnySlope Suites',
-            location: 'Meadowshire Park, Greenfield, USA',
-            price: '$250000',
-            image: 'https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505783/Banner_Image-1_ibiksx.png',
-        },
-        {
-            name: 'SunnySlope Suites',
-            location: 'Meadowshire Park, Greenfield, USA',
-            price: '$250000',
-            image: 'https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505725/Banner_Image_dspo1h.png',
-        },
-        {
-            name: 'SunnySlope Suites',
-            location: 'Meadowshire Park, Greenfield, USA',
-            price: '$250000',
-            image: 'https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505658/Banner_Image-2_rsbxly.png',
-        },
-    ];
+    const [properties, setProperties] = useState([]);
+
+    useEffect(() => {
+        fetch("propertydata.json")
+        .then(res => res.json())
+        .then(data => {
+            setProperties(data);
+        })
+    }, [])
 
   return (
     <div className="w-10/12 mx-auto my-[50px]">
@@ -52,9 +36,14 @@ const PopularProperties = () => {
                 navigation
                 onSlideChange={() => console.log('slide change')}
             >
-                {properties?.map((property, index) => (
-                    <SwiperSlide key={index}>
-                        <div className="bg-[#F9FAFB] rounded-lg overflow-hidden">
+                {properties?.filter(item => item.category === "popularProperties").map((property) => (
+
+                    
+                    <SwiperSlide key={property.id}>
+                        
+                        <Link to="/propertyDetails">
+                        
+                        <div className="bg-[#F9FAFB] rounded-lg overflow-hidden cursor-pointer">
                             <img src={property.image} alt={property.name} className="w-full h-48 object-cover" />
 
                             <div className='flex items-center justify-start px-4 mt-[-50px]'>
@@ -83,7 +72,11 @@ const PopularProperties = () => {
                                 <p className="text-[24px] font-montserrat text-[#111827] font-semibold">{property.price}</p>
                             </div>
                         </div>
+                        </Link>
+                        
                     </SwiperSlide>
+                    
+                   
                 ))}
             </Swiper>
             </div>

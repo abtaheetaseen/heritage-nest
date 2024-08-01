@@ -2,7 +2,7 @@ import React from 'react'
 
 const PostProperty = () => {
   return (
-    <div className='h-[166px] bg-[#FDF0E7] grid'>
+    <div className='h-[200px] bg-[#FDF0E7] grid'>
       <div className='flex items-center justify-between gap-[64px] w-10/12 mx-auto'>
 
         <div>
