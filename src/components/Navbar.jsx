@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -11,6 +12,12 @@ const Navbar = () => {
         <a>Sell</a>
       </li>
       <li><a>Services</a></li>
+      <NavLink to="/aboutUs">
+      <li><a>About</a></li>
+      </NavLink>
+      <NavLink to="/buyerScreen">
+      <li><a>Buyer Screen</a></li>
+      </NavLink>
     </ul>
   </div>
 
@@ -38,6 +45,12 @@ const Navbar = () => {
         <a>Sell</a>
       </li>
       <li><a>Services</a></li>
+      <NavLink to="/aboutUs">
+      <li><a>About</a></li>
+      </NavLink>
+      <NavLink to="/buyerScreen">
+      <li><a>Buyer Screen</a></li>
+      </NavLink>
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">Heritage Nest</a>

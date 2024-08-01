@@ -6,32 +6,14 @@
     background-position: center;
 }
 
-.service1-bg{
-    background-image: url(./assets/images/service1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.swiper-button-next, .swiper-button-prev{
+  background-color: #5490CB;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  padding: 30px;
 }
 
-.service2-bg{
-  background-image: url(./assets/images/service2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.service3-bg{
-  background-image: url(./assets/images/service3.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.discount-bg{
-  height: 500px;
-  background: linear-gradient(480deg, rgba(20, 0, 78, 0.8) 0%, rgba(19, 19, 24, 0.50) 100%), url(./assets/images/discount.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 40px;
+.swiper-button-prev:after, .swiper-button-next:after {
+  color: white;
 }
