@@ -33,7 +33,7 @@ const NewListedProperty = () => {
             name: 'SunnySlope Suites',
             location: 'Meadowshire Park, Greenfield, USA',
             price: '$250000',
-            image: 'https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722505783/Banner_Image-1_ibiksx.png',
+            image: 'https://res.cloudinary.com/dbjkwdcmx/image/upload/v1722509051/luxury-bedroom-grey-gold_nt5ahx.webp',
         },
     ];
 

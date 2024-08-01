@@ -10,8 +10,8 @@ const BuyerScreen = () => {
     <>
       <BuyerBanner />
       <AboutService />
-      <Testimonials />
       <NewListedProperty />
+      <Testimonials />
       <PostProperty />
     </>
   )

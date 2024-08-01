@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
       <div className="navbar flex items-center justify-between h-[96px] bg-[#ECF5FF] lg:px-[112px]">
 
-<div className="hidden  lg:flex">
+<div className="hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-body">
       <li><a>Buy</a></li>
       <li>
