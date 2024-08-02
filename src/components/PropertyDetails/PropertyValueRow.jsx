@@ -18,6 +18,22 @@ const PropertyValueRow = () => {
                     $ 280k
                 </div>
 
+                <div class="w-full flex justify-between items-center bg-[#EEEEEE] mb-2">
+
+                    <div class="flex items-center space-x-4">
+                        <div class="w-8 h-8 bg-orange-500 rounded-full"></div>
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+                        <div class="w-8 h-8 bg-orange-500 rounded-full"></div>
+                    </div>
+                </div>
+
+                <div className='flex items-center justify-between mb-5 font-body font-medium text-[14px] text-[#252323]'>
+                    <p>$ 280k</p>
+                    <p>$ 305k</p>
+                </div>
+
                 <div className='flex items-center justify-center'>
                     <button className='font-body px-[24px] py-[12px] flex items-center justify-center gap-3 bg-[#005EAE] text-[#FFFFFF] rounded-[8px]'>
                         Bid Property
