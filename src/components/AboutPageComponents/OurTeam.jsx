@@ -14,10 +14,11 @@ const OurTeam = () => {
                 </div>
 
                 <h1 className='font-body font-bold text-[40px] text-[#111827] my-5'>
-                Discover the Faces Behind Our Success
+                    Discover the Faces Behind Our Success
                 </h1>
             </div>
 
+            {/* team members */}
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
                 <img src={team1} alt="" />
                 <img src={team2} alt="" />

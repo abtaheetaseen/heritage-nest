@@ -54,7 +54,7 @@ const OurStory = () => {
                         </h1>
 
                         <p className='leading-[20.8px] font-body text-[16px] text-[#667085] font-medium mb-10'>
-                        To bridge the miles with smiles, Heritage-Nest pledges to be the golden thread connecting NRIs to their homeland, through trust, transparency, and tailored real estate solutions.
+                            To bridge the miles with smiles, Heritage-Nest pledges to be the golden thread connecting NRIs to their homeland, through trust, transparency, and tailored real estate solutions.
                         </p>
                     </div>
                 </div>

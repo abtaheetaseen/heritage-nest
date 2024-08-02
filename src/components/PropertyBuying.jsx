@@ -13,19 +13,17 @@ const PropertyBuying = () => {
         <div className='w-10/12 mx-auto my-[50px]'>
 
             {/* property buying ----- 1 */}
-            <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-16 mb-[100px]'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 mb-[100px] lg:mb-[180px]'>
 
                 <div className='relative'>
-                    <div>
-                        <img className='w-[80%] rounded-[8px]' src={pb1} alt="" />
-                    </div>
+                    <img className='lg:w-[80%] lg:h-[100%] rounded-[8px]' src={pb1} alt="" />
 
-                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute top-[145px] left-[440px] hidden'>
+                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute bottom-36 right-24 hidden z-50'>
                         <VscTriangleRight className='text-[#FFFFFF] text-[50px]' />
                     </div>
 
-                    <div className='flex items-center justify-end mt-[-140px]'>
-                        <img className='w-[60%] flex items-end rounded-[8px] shadow-custom-shadow' src={banner1} alt="" />
+                    <div className='lg:flex hidden items-center justify-end lg:absolute lg:-bottom-10 lg:right-0'>
+                        <img className='w-[70%] flex items-end rounded-[8px] shadow-custom-shadow' src={banner1} alt="" />
                     </div>
                 </div>
 
@@ -39,24 +37,24 @@ const PropertyBuying = () => {
                         </div>
 
                         <h1 className='font-body font-bold text-[40px] leading-[52px] text-[#111827] my-5'>
-                        Efficient and Transparent 
-                        Home Buying Solutions
+                            Efficient and Transparent
+                            Home Buying Solutions
                         </h1>
 
                         <p className='leading-[20.8px] font-body text-[16px] text-[#667085] font-medium mb-10'>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                         </p>
 
                         <button className='font-body px-[20px] py-[12px] flex items-center justify-center gap-3 bg-[#E6EFF7] text-[#00437C] rounded-[8px] font-semibold text-[16px]'>
-              <CiSearch className="w-[18px] h-[18px] text-[#00437C] font-semibold" /> Find Property
-              </button>
+                            <CiSearch className="w-[18px] h-[18px] text-[#00437C] font-semibold" /> Find Property
+                        </button>
                     </section>
                 </div>
 
             </div>
 
             {/* property buying ----- 2 */}
-            <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-16 mb-[100px]'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 mb-[100px]'>
 
                 <div>
                     <section>
@@ -68,52 +66,54 @@ const PropertyBuying = () => {
                         </div>
 
                         <h1 className='font-body font-bold text-[40px] leading-[52px] text-[#111827] my-5'>
-                        Efficient and Transparent 
-                        Home Buying Solutions
+                            Efficient and Transparent
+                            Home Buying Solutions
                         </h1>
 
                         <p className='leading-[20.8px] font-body text-[16px] text-[#667085] font-medium mb-10'>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                         </p>
 
                         <button className='font-body px-[20px] py-[12px] flex items-center justify-center gap-3 bg-[#E6EFF7] text-[#00437C] rounded-[8px] font-semibold text-[16px]'>
-              <CiSearch className="w-[18px] h-[18px] text-[#00437C] font-semibold" /> Find Property
-              </button>
+                            <CiSearch className="w-[18px] h-[18px] text-[#00437C] font-semibold" /> Find Property
+                        </button>
                     </section>
                 </div>
 
                 <div className='relative'>
 
-                    <div className='flex items-center justify-end'>
-                        <img className='w-[60%] flex items-end rounded-[8px] shadow-custom-shadow-1 z-10' src={banner} alt="" />
-                    </div>
+                    <img className='lg:w-[80%] lg:h-[100%] rounded-[8px]' src={pb3} alt="" />
 
-                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute top-[145px] left-[440px] z-20 hidden'>
+
+
+                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute -top-10 left-40 hidden z-50'>
                         <VscTriangleRight className='text-[#FFFFFF] text-[50px]' />
                     </div>
 
-                    <div>
-                        <img className='w-[80%] rounded-[8px] mt-[-140px]' src={pb3} alt="" />
+
+                    <div className='lg:flex hidden items-center justify-end lg:absolute lg:-top-16 lg:right-0'>
+                        <img className='w-[70%] lg:flex items-end rounded-[8px] shadow-custom-shadow-1 z-10 hidden' src={banner} alt="" />
                     </div>
+
 
                 </div>
 
             </div>
 
             {/* property buying ----- 3 */}
-            <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-16'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 lg:mb-[100px]'>
 
                 <div className='relative'>
-                    <div>
-                        <img className='w-[80%] rounded-[8px]' src={pb2} alt="" />
-                    </div>
 
-                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute top-[145px] left-[440px] hidden'>
+                    <img className='lg:w-[80%] lg:h-[100%] rounded-[8px]' src={pb2} alt="" />
+
+
+                    <div className='bg-[#0059B1] w-[72px] h-[72px] rounded-full lg:flex items-center justify-center absolute bottom-36 right-24 hidden z-50'>
                         <VscTriangleRight className='text-[#FFFFFF] text-[50px]' />
                     </div>
 
-                    <div className='flex items-center justify-end mt-[-140px]'>
-                        <img className='w-[60%] flex items-end rounded-[8px] shadow-custom-shadow' src={banner2} alt="" />
+                    <div className='lg:flex hidden items-center justify-end lg:absolute lg:-bottom-10 lg:right-0'>
+                        <img className='w-[70%] flex items-end rounded-[8px] shadow-custom-shadow' src={banner1} alt="" />
                     </div>
                 </div>
 
@@ -127,17 +127,17 @@ const PropertyBuying = () => {
                         </div>
 
                         <h1 className='font-body font-bold text-[40px] leading-[52px] text-[#111827] my-5'>
-                        Efficient and Transparent 
-                        Home Buying Solutions
+                            Efficient and Transparent
+                            Home Buying Solutions
                         </h1>
 
                         <p className='leading-[20.8px] font-body text-[16px] text-[#667085] font-medium mb-10'>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                         </p>
 
                         <button className='font-body px-[20px] py-[12px] flex items-center justify-center gap-3 bg-[#E6EFF7] text-[#00437C] rounded-[8px] font-semibold text-[16px]'>
-              <CiSearch className="w-[18px] h-[18px] text-[#00437C] font-semibold" /> Find Property
-              </button>
+                            <CiSearch className="w-[18px] h-[18px] text-[#00437C] font-semibold" /> Find Property
+                        </button>
                     </section>
                 </div>
 

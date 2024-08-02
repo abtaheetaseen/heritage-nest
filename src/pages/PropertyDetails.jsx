@@ -7,15 +7,15 @@ import OthersNearbyProperties from '../components/PropertyDetails/OthersNearbyPr
 import Amenities from '../components/PropertyDetails/Amenities';
 
 const PropertyDetails = () => {
-  return (
-    <>
-    <PropertyNameLocationPrice />
-    <PropertyData />
-    <Amenities />
-    <OtherServices />
-    <OthersNearbyProperties />
-    </>
-  )
+    return (
+        <>
+            <PropertyNameLocationPrice />
+            <PropertyData />
+            <Amenities />
+            <OtherServices />
+            <OthersNearbyProperties />
+        </>
+    )
 }
 
 export default PropertyDetails

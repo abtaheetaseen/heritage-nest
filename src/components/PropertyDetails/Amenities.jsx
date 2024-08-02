@@ -33,21 +33,21 @@ const Amenities = () => {
         { icon: <FaRunning />, label: 'Jogging and Strolling Track' },
         { icon: <FaBaby />, label: 'Early Learning Centre' },
         { icon: <FaGamepad />, label: 'Kids Play Area' },
-      ];
+    ];
 
-  return (
-    <div className="w-10/12 mx-auto bg-[#F9FAFB] p-6 border-2 border-[#E5E7EB] rounded-[8px] mb-[50px] lg:mt-[-200px]">
-      <h2 className="text-[24px] font-semibold font-montserrat mb-10">Amenities</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-2 md:gap-x-5 gap-y-16">
-        {amenitiesList?.map((amenity, index) => (
-          <div key={index} className="flex items-center space-x-2">
-            <div className="text-xl">{amenity.icon}</div>
-            <div className='font-montserrat text-[16px] font-medium text-[#101010]'>{amenity.label}</div>
-          </div>
-        ))}
-      </div>
-    </div>
-  )
+    return (
+        <div className="w-10/12 mx-auto bg-[#F9FAFB] p-6 border-2 border-[#E5E7EB] rounded-[8px] mb-[50px] lg:mt-[-200px]">
+            <h2 className="text-[24px] font-semibold font-montserrat mb-10">Amenities</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-2 md:gap-x-5 gap-y-16">
+                {amenitiesList?.map((amenity, index) => (
+                    <div key={index} className="flex items-center space-x-2">
+                        <div className="text-xl">{amenity.icon}</div>
+                        <div className='font-montserrat text-[16px] font-medium text-[#101010]'>{amenity.label}</div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
 }
 
 export default Amenities

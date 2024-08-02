@@ -7,16 +7,16 @@ import NewListedProperty from '../components/BuyerScreens/NewListedProperty'
 import PopularProperties from '../components/BuyerScreens/PopularProperties'
 
 const BuyerScreen = () => {
-  return (
-    <>
-      <BuyerBanner />
-      <AboutService />
-      <PopularProperties />
-      <NewListedProperty />
-      <Testimonials />
-      <PostProperty />
-    </>
-  )
+    return (
+        <>
+            <BuyerBanner />
+            <AboutService />
+            <PopularProperties />
+            <NewListedProperty />
+            <Testimonials />
+            <PostProperty />
+        </>
+    )
 }
 
 export default BuyerScreen
