@@ -59,8 +59,8 @@ const Navbar = () => {
     </Link>
   </div>
 
-  <div className="flex items-center justify-end gap-5">
-    <p className='font-body'>Manage Rentals</p>
+  <div className="flex items-center justify-end gap-3">
+    <p className='font-body text-[14px]'>Manage Rentals</p>
     <button className="w-[96px] h-[40px] rounded-[8px] bg-[#C5E2FF] text-[#0059B1]">Sign In</button>
   </div>
 </div>
